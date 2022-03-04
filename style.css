@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+} 
+body {
+  background-color: beige;
+
+
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px
+}
+
+
+header {
+    height: 118px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.linkcolor {
+    color: rgb(255, 255, 255);
+    width: 1024px;
+}
+a {
+    color:rgb(0, 0, 0, 0.625); 
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.625); 
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.box1 {
+    background-color: rgb(0, 0, 0, 0.625);
+    width: 1024;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    padding-left: 12px;
+}
+main {
+    height: 400px;
+    
+   padding-left: 240px;
+   padding-right: 240px;
+   text-align: center;
+}
+article {
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.66);
+    height: 100px;
+    text-align: center;
+    margin-top: 250px;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+
+.footer2 {
+    background-color: rgba(0, 0, 0, 0.66);
+    height: 100px;
+    text-align: center;
+    margin-top: 250px;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.625);
+    font-family: Arial, Helvetica, sans-serif;
+}
+bro {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, 0.625);
+    font-weight: bold;
+}
+.overboxes{
+    width:300px;
+    padding: 10px;
+    margin: 5px;
+    
+}
+.underboxes {
+    width: 300px;
+    border: 5px solid rgb(0, 0, 0, 0.625);
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the-links {
+    width: 300px;
+    border: 5px solid rgb(0, 0, 0, 0.625);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+.the-links2 {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
+.side-by-side {
+    display: flex;
+   
+}
