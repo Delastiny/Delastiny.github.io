@@ -1,1 +1,0 @@
-# delastiny.github.io
