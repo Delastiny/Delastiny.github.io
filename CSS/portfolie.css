@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    border-width: 4px;
+    height: 100px;
+    border-style: solid;
+    border-color: palevioletred;
+    background-color: palevioletred;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    height: 50%;
+    width: 200px;
+    border-width: 3px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    background-color: white;
+    color: palevioletred;
+
+}
+
+/* Title for om mig */
+
+.Ea-title {
+    display: flex;
+
+    border-top-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 0px;
+
+    flex-direction: column;
+
+
+    height: 60px;
+    border-style: solid;
+    border-color: palevioletred;
+    /* Does so text is 10px from the border top */
+    padding-top: 10px; 
+    /* Does so its 5px from the navigation */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+
+    color: palevioletred; 
+    font-size: 17px;
+    overflow: hidden;
+}
+
+.Ea-title h1 {
+    padding-left: 5px;
+}
+
+.Ea-title hr {
+    height: 2px;
+        background-color: palevioletred;
+        border: none;
+}
+
+/* Omg mig introduktion */
+.main-box {
+    display: flex;
+
+
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+    border-top-width: 0px;
+
+
+    height: fit-content;
+
+
+    border-style: solid;
+    border-color: palevioletred;
+    /* Does so text is 10px from the border top */
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    /* Does so its 5px from the navigation */
+    margin-left: 10px;
+    margin-right: 10px;
+    color: palevioletred; 
+    font-size: 17px;
+    overflow: hidden;
+
+
+    flex-direction: column;
+}
+
+
+.element-left {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element-left img {
+    height: 200px;
+    width: 200px;
+    /* margin-left: 80px; */
+    margin-bottom: 10%;
+    border-radius: 50%;
+}
+
+.element-left a {
+    text-decoration: none;
+    color: palevioletred;
+    border-style: solid;
+    height: 50px;
+    width: 120px;
+
+
+    justify-content: center;
+    /* margin-left: 120px; */
+
+    border-width: 3px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+.last-item {
+    display: flex;
+    margin-bottom: auto;
+}
+
+.element-left a:hover {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 3px;
+    background-color: palevioletred;
+    color: white;
+}
+
+
+.element-right {
+    flex: 1;
+}
+
+
+.middle-text {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Programmering kode */
+.pro p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pro h2{
+    margin-left: 8px;
+}
+

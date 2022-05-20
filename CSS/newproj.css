@@ -1,0 +1,130 @@
+.project-left {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-middle {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-right {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Course */
+.course {
+    display: flex;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+/* images */
+
+.project-left img {
+    margin-top: 10px;
+    height: 200px;
+    width: 320px;
+}
+
+.project-middle img {
+    margin-top: 10px;
+    height: 200px;
+    width: 320px;
+}
+
+.project-right img {
+    margin-top: 10px;
+    height: 200px;
+    width: 320px;
+}
+
+/* Description */
+.desc {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+/* Project link */
+/* Left */
+.project-left a {
+    text-decoration: none;
+    color: palevioletred;
+    border-style: solid;
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+.project-left a:hover {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 3px;
+    background-color: palevioletred;
+    color: white;
+}
+
+/* middle */
+
+.project-middle a {
+    text-decoration: none;
+    color: palevioletred;
+    border-style: solid;
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+.project-middle a:hover {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 3px;
+    background-color: palevioletred;
+    color: white;
+}
+
+
+/* right */
+.project-right a {
+    text-decoration: none;
+    color: palevioletred;
+    border-style: solid;
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+.project-right a:hover {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 3px;
+    background-color: palevioletred;
+    color: white;
+}
+
+
+
+.link {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+.section {
+    display: flex;
+}
